@@ -42,6 +42,26 @@ button{
 }
 .hide {
 	display: none; }
+
+.hr {
+	background: rgb(0, 0, 0);
+    border: none;
+    border-top: 7px double rgb(0, 0, 0);
+    color: lightblue;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.hr:after {
+	color: lightblue;
+    background: rgb(0, 0, 0);
+    content: 'JACK YANG 傑克•楊';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
 img {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -327,12 +347,12 @@ section.trend h3.text-center {
 	font-size:40px;
 	font-weight:normal;
 	padding:20px 0;
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-family: 'Varela Round', sans-serif;
 }
 section.trend p.text-center {
 	font-size:17px;
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-weight:normal;
 	padding:0px 0 60px;
 }
