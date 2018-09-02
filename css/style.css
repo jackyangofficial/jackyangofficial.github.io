@@ -2045,7 +2045,7 @@ section.team h3, section.cust h3 {
 	color:#fff;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-	background-color:#E49B9B;
+	background-color:rgb(224, 239, 243);
 }
 .nav-tabs.nav-justified>li>a {
     font-size: 18px;
