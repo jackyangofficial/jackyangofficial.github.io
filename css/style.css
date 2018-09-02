@@ -252,11 +252,11 @@ body {
 	display: inline-block;
 }
 .slide-list li a {
-	opacity: 0.7;
-	width: 15px;
-	height: 15px;
+	opacity: 0.5;
+	width: 10px;
+	height: 10px;
 	display: block;
-	background: white;
+	background: rgb(216, 238, 247);
 	border-radius: 20px;
 	text-indent: -9999px;
 }
