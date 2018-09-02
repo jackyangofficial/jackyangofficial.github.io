@@ -2204,8 +2204,7 @@ section.service-panel h3.page-header.text-center {
     height: 257px!important;
 }
 .slider-container .slide-content {
-	top:22%;
-	right:69px;
+	display:none;
 }
 .slider-container .slide-content p {
 	display:none;
