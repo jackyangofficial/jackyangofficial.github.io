@@ -68,7 +68,7 @@ body {
     border-color: transparent;
 }
 .navbar-default {
-	background: -webkit-linear-gradient(-45deg, #000000 0%,lightblue 100%);
+	background: -webkit-linear-gradient(-45deg, #000000 0%,rgb(122, 155, 163) 100%);
 	opacity: 0.6;
     border-color: transparent;
 }
@@ -81,7 +81,7 @@ body {
     line-height: 20px;
 }
 .navbar-default .navbar-brand {
-    color: #FFF;
+    color: rgb(219, 250, 255);
 }
 .navbar-default .navbar-brand h1 {
 	font-size:35px;
@@ -89,21 +89,21 @@ body {
 	font-family: 'Varela Round', sans-serif;
 } 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #FFFFFF;
+    color: rgb(142, 173, 187);
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #FFF;
+    color: rgb(219, 250, 255);
 	font-size: 18px;
     font-weight: 300;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	 color: #000;
-    background-color:#fff;
+    background-color:rgb(201, 221, 231);
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover ,.navbar-default .navbar-nav>li>a.active  {
     color: #000;
-    background-color:#fff;
+    background-color:rgb(201, 224, 235);
 }
 /*-- /navigtion --*/
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
@@ -153,20 +153,20 @@ body {
 	font-size:27px;
 	font-weight:normal;
 	padding:10px 0 20px;
-	color:#fff;
+	color:rgb(219, 247, 255);
 	-webkit-transition: all 0.2s ease;
 	font-family: 'Varela Round', sans-serif;
 }
 .slide-content p {
 	font-size:17px;
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-weight:normal;
 	padding:0 10px 20px;
 	line-height:30px;
 	-webkit-transition: all 0.2s ease;
 }
 .slide-content a {
-	color: #fff;
+	color: rgb(234, 248, 250);
 	font-size:20px;
 	font-weight:300;
 	padding: 10px 20px;
@@ -179,7 +179,7 @@ body {
 .slide-content a:focus,
 .slide-content a:active {
     border:1px solid #fff;
-    color:#DE4E4E;
+    color:rgb(243, 243, 243);
     background-color: #fff;
 }  
 .slider-controls {
@@ -194,7 +194,7 @@ body {
 	position: absolute;
 	top: 50%;
 	z-index: 10;
-	color: white;
+	color: rgb(99, 93, 93);
 }
 
 .slide-nav .prev:hover {
@@ -689,21 +689,21 @@ section.footer {
 	padding:100px 0;
 }
 section.footer h3 {
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-size:30px;
 	font-weight:normal;
 	padding:0 0 25px;
 	font-family: 'Varela Round', sans-serif;
 }
 .footer-addr span.fa {
-	color:#fff;
+	color:rgb(181, 231, 247);
 	font-size:18px;
 }
 .footer-addr a {
 	text-decoration:none;
 }
 p.footer-p {
-    color: #fff;
+    color: rgb(234, 248, 250);
     font-weight: normal;
     font-size: 17px;
     margin: -22px 0 15px 30px;
@@ -712,13 +712,13 @@ ul.footer-links-w3ls {
 	list-style:none;
 }
 ul.footer-links-w3ls li a {
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-size:17px;
 	font-weight:normal;
 	text-decoration:none;
 }
 ul.footer-links-w3ls li a:hover {
-	color:#F34A4A;
+	color:rgb(134, 148, 163);
 }
 ul.footer-links-w3ls li {
 	padding-bottom:11px;
@@ -730,19 +730,19 @@ ul.footer-links-w3ls li a p {
     margin: -22px 0 0 29px;
 }
 section.footer h4 {
-	color:#fff;
+	color:rgb(234, 248, 250);
 	font-size:25px;
 	font-weight:normal;
 	font-family: 'Varela Round', sans-serif;
 }
 p.footer-blog1 {
-    color: #fff;
+    color: rgb(234, 248, 250);
     font-size: 15px;
     font-weight: normal;
     padding: 10px 0;
 }
 p.footer-blog2 {
-    color: #fff;
+    color: rgb(234, 248, 250);
     font-size: 16px;
     font-weight: normal;
 	line-height:30px;
@@ -754,7 +754,7 @@ p.footer-blog2 {
 section.footer .form-control {
 	border-radius:0px;	
 	background-color: rgba(0, 0, 0, 0.25);
-	color:#fff;
+	color:rgb(234, 248, 250);
 	text-align: center;
     font-size: 17px;
 	width:100%;
