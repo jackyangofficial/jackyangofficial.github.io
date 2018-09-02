@@ -68,7 +68,8 @@ body {
     border-color: transparent;
 }
 .navbar-default {
-    background-color: rgba(0,0,0,0.5);
+	background: -webkit-linear-gradient(-45deg, #000000 0%,lightblue 100%);
+	opacity: 0.6;
     border-color: transparent;
 }
 .navbar-brand {
@@ -142,8 +143,8 @@ body {
     right: 8%;
     top: 27%;
     width: 27%;
-    background-color:rgba(0,0,0,0.5);
-	border:5px solid rgba(0,0,0,0.5); 
+    background-color:rgba(64, 70, 73, 0.5);
+	border:5px solid rgba(1, 23, 29, 0.5); 
     z-index: 2;
 	text-align:center;
     padding: 35px 20px;
@@ -187,10 +188,23 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.slide-nav {
-}
 .slide-nav .prev,
 .slide-nav .next {
+	opacity: 0.7;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	color: white;
+}
+
+.slide-nav .prev:hover {
+	opacity:1;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+}
+.slide-nav .next:hover {
+	opacity:1;
 	position: absolute;
 	top: 50%;
 	z-index: 10;
@@ -250,7 +264,7 @@ section.info {
 section.info h2.text-center {
 	font-size:40px;
 	font-weight:normal;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	padding:20px 0;	
 	font-family: 'Varela Round', sans-serif;
 }
@@ -287,7 +301,7 @@ section.info p.text-center {
 section.info .info-w3l h3 {
 	font-size:25px;
 	font-weight:normal;
-	color: #DA8080;
+	color: rgb(136, 157, 163);
 	padding:20px 0;
 	font-family: 'Varela Round', sans-serif;
 }
@@ -329,7 +343,8 @@ section.trend p.text-center {
    position: relative;
    text-align: center;
    cursor: default;
-   background: #fff ;
+   background: rgb(169, 190, 202) ;
+   opacity:0.8;
 }
 .view .mask,.view .content {
    width: 280px;
@@ -407,7 +422,7 @@ section.portfolio {
 section.portfolio h3.text-center {
 	font-size:40px;
 	font-weight:normal;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	padding:20px 0;
 	font-family: 'Varela Round', sans-serif;
 }
@@ -490,8 +505,8 @@ section.portfolio p.text-center {
 	font-size: 68.5%;
 }
 figure.effect-duke1 {
-	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
-	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
+	background: -webkit-linear-gradient(-45deg, #34495e 0%,lightblue 100%);
+	background: linear-gradient(-45deg, #34495e 0%,lightblue 100%);
 }
 
 figure.effect-duke1 img,
@@ -612,8 +627,8 @@ figure.effect-duke1:hover p {
 	font-size: 68.5%;
 }
 figure.effect-duke2 {
-	background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
-	background: linear-gradient(-45deg, #34495e 0%,#cc6055 100%);
+	background: -webkit-linear-gradient(-45deg, #34495e 0%,lightblue 100%);
+	background: linear-gradient(-45deg, #34495e 0%,lightblue 100%);
 }
 
 figure.effect-duke2 img,
@@ -939,15 +954,15 @@ ol.breadcrumb li {
     font-weight: normal;
 }
 ol.breadcrumb li a {
-    color: #E69B9B;
+    color: black;
     text-decoration: none;
 }
 ol.breadcrumb li a:hover {
-	color:#C34C4C;
+	color:rgb(136, 157, 163);
 }
 h2.page-header.text-center {
     font-size: 40px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
     font-weight: 300;
 	padding:40px 0 25px;
 	font-family: 'Varela Round', sans-serif;
@@ -1003,27 +1018,14 @@ section.about-w3ls h3 {
     font-weight: 300;
     padding-bottom: 20px;
 	font-family: 'Varela Round', sans-serif;
-	color: #BF9090;
+	color: rgb(104, 169, 187);
 }
 section.about-w3ls p {
     font-size: 17px;
     font-weight: 400;
     line-height: 35px;
 }
-section.team h3 {
-	font-size: 40px;
-    font-weight: 300;
-	padding: 40px 0 30px;
-	font-family: 'Varela Round', sans-serif;
-	color: #BF9090;
-}
-section.team h4 {
-	font-size:22px;
-	font-weight:normal;
-	padding:10px 0;
-	font-family: 'Varela Round', sans-serif;
-	color: #BF9090;
-}
+
 p.team-w3ls {
     font-size: 18px;
     font-weight: 400;
@@ -1150,14 +1152,14 @@ section.service-panel h3.page-header.text-center {
 	font-weight:normal;
 	font-family: 'Varela Round', sans-serif;
 	padding: 30px 0 20px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 }
 section.service-panel span.fa {
     font-size: 30px;
-    background-color: #CC5A5A;
+    background-color: rgb(136, 157, 163);
     width: 80px;
     height: 80px;
-    border: 2px solid #D2D2D2;
+    border: 2px solid rgb(136, 157, 163);
     text-align: center;
     vertical-align: middle;
     line-height: 75px;
@@ -1174,14 +1176,15 @@ section.service-panel span.fa {
 	-ms-transition:all 0.5s ease-in-out;
 }
 section.service-panel span.fa:hover {
-	background-color:#561C1C;
-	border: 2px solid #561C1C;
+	color:rgb(66, 66, 66);
+	background-color:rgb(218, 233, 238);
+	border: 2px solid rgb(158, 171, 175);
 }
 section.service-panel h4 {
 	font-size:23px;
 	font-weight:normal;
 	padding:10px 0;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	font-family: 'Varela Round', sans-serif;
 }
 section.service-panel p {
@@ -1191,25 +1194,26 @@ section.service-panel p {
 	line-height: 27px;
 }
 section.service-panel a.btn.btn-primary {
-    background-color: #CC5A5A;
-    border-color:#CC5A5A;
+    background-color: rgb(136, 157, 163);
+    border-color:rgb(228, 237, 240);
 	font-family: 'Varela Round', sans-serif;
 	font-size:17px;
 	color:#fff;
 	margin-bottom:10px;
 }
 section.service-panel a.btn.btn-primary:hover {
-	background-color:#6F2020;
-	border-color:#6F2020;	
+	background-color:lightblue;
+	border-color:lightblue;	
 }
 section.service-tabs h3.page-header.text-center {
 	font-size:35px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	font-weight:normal;
 	font-family: 'Varela Round', sans-serif;
 	padding: 30px 0 20px;
 }
 section.service-tabs i.fa {
+	color:rgb(118, 144, 151);
 	font-size:20px;
 }
 section.service-tabs .nav-tabs.nav-justified>li>a {
@@ -1217,20 +1221,20 @@ section.service-tabs .nav-tabs.nav-justified>li>a {
     border-radius: 4px 4px 0 0;
     font-size: 20px;
 	font-weight:300;
-	color: #AD5050;
+	color: rgb(136, 157, 163);
 }
 section.service-tabs .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
     border-bottom-color: #fff;
-    color: #B10000;
+    color: rgb(136, 157, 163);
 }
 section.service-tabs .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: #AD5050;
+    background-color: rgb(218, 233, 238);
 	color:#fff;
 }
 section.service-tabs h4 {
 	font-size: 25px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
     font-weight: normal;
 	font-family: 'Varela Round', sans-serif;
     padding: 30px 0 15px;
@@ -1254,11 +1258,11 @@ section.service-tabs {
 /*-- blog page --*/
 section.blog-w3ls h3 {
 	padding:10px 0;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 }
 section.blog-w3ls h3 a {
 	font-size:30px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	font-weight:normal;
 	text-decoration:none;
 }
@@ -1268,7 +1272,7 @@ section.blog-w3ls p.lead {
 }
 section.blog-w3ls p.lead a {
 	text-decoration:none;
-	color: #D48080;
+	color: rgb(125, 157, 167);
 } 
 section.blog-w3ls p.blog-agile1 {
 	font-size:15px;
@@ -1281,16 +1285,17 @@ section.blog-w3ls p.blog-agile2 {
 	padding:10px 0 20px;
 }
 section.blog-w3ls a.btn.btn-primary {
-    background-color: #CC5A5A;
-    border-color:#CC5A5A;
+    background-color: rgb(136, 157, 163);
+    border-color:rgb(136, 157, 163);
 	font-family: 'Varela Round', sans-serif;
 	font-size:17px;
 	color:#fff;
 	margin-bottom:10px;
 }
 section.blog-w3ls a.btn.btn-primary:hover {
-	background-color:#6F2020;
-	border-color:#6F2020;	
+	background-color:rgb(228, 237, 240);
+	border-color:rgb(228, 237, 240);
+	color:rgb(105, 105, 105);	
 }
 .pager .previous>a, .pager .previous>span {
     float: left;
@@ -1353,7 +1358,7 @@ section.blog-w3ls {
 /*-- blogpost page --*/
 h2.page-header.text-center small a {
 	text-decoration:none;
-	color: #BF9090;
+	color: rgb(104, 169, 187);
 }
 section.blog-post p.blogpost-w3ls {
 	font-size:16px;
@@ -1442,7 +1447,7 @@ section.blog-post {
 /*-- contact page --*/
 section.contact-us h3{
 	font-size:30px;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	font-weight:normal;
 	padding:20px 0;
 	font-family: 'Varela Round', sans-serif;
@@ -1458,6 +1463,7 @@ section.contact-us p.contact-agile {
 	padding-bottom:20px;
 }
 section.contact-us p.contact-agile i.fa {
+	color:rgb(136, 157, 163);
 	margin-right:10px;
 }
 section.contact-us p.contact-agile abbr {
@@ -1468,7 +1474,7 @@ section.contact-us p.contact-agile i.fa.fa-envelope-o {
 }
 section.contact-us h3.contact-agileits2 {
 	text-align:center;
-	color: #BF9090;
+	color: rgb(136, 157, 163);
 	padding:30px 0 20px;
 }
 section.contact-us label {
@@ -1477,16 +1483,17 @@ section.contact-us label {
     padding: 10px 0;
 }
 section.contact-us button.btn.btn-primary {
-	background-color: #CC5A5A;
-    border-color:#CC5A5A;
+	background-color: rgb(136, 157, 163);
+    border-color:rgb(136, 157, 163);
 	font-family: 'Varela Round', sans-serif;
 	font-size:17px;
 	color:#fff;
 	margin-bottom:10px;
 }
 section.contact-us button.btn.btn-primary:hover {
-	background-color:#772E2E;
-    border-color:#772E2E;
+	background-color:rgb(228, 237, 240);
+	border-color:rgb(228, 237, 240);
+	color:rgb(105, 105, 105);
 }	
 section.contact-us iframe.googlemaps {
 	width:100%;

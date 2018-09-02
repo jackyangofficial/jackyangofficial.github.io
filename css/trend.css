@@ -9,7 +9,7 @@
    opacity: 1;
 }
 .view-seventh .mask {
-   background-color: rgba(77,44,35,0.5);
+   background: -webkit-linear-gradient(-45deg, #34495e 0%,lightblue 100%);
    -webkit-transform: rotate(0deg) scale(1);
    -moz-transform: rotate(0deg) scale(1);
    -o-transform: rotate(0deg) scale(1);
