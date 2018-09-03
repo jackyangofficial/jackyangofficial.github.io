@@ -809,8 +809,8 @@ button.btn-outline:hover,
 button.btn-outline:focus,
 button.btn-outline:active {
     border: solid 1px #fff;
-    color:#EA6363;
-    background: #fff;
+    color:rgb(95, 115, 133);
+    background: rgb(234, 245, 255);
 }
 ul.social-icons2 {
 	list-style:none;
@@ -939,8 +939,62 @@ ul.social-icons2 li a i.fa.fa-github {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+ul.social-icons2 li a i.fa.fa-whatsapp {
+	background-color:#8adf59;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:40px;
+	text-align: center;
+    vertical-align: middle;	
+	 transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+ul.social-icons2 li a i.fa.fa-youtube {
+	background-color:#f06236;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-border-radius:50%;
+	-ms-border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:40px;
+	text-align: center;
+    vertical-align: middle;	
+	 transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+.github2 {
+	color: rgb(234, 248, 250);
+}
+.github3 {
+color:rgb(136, 157, 163);
+}
+
 ul.social-icons2 li a i.fa.fa-facebook:hover {
 	background-color:#002573;
+}
+ul.social-icons2 li a i.fa.fa-youtube:hover {
+	background-color:#c22511;
+}
+ul.social-icons2 li a i.fa.fa-whatsapp:hover {
+	background-color:#e7eb1e;
 }
 ul.social-icons2 li a i.fa.fa-instagram:hover {
 	background-color:#6ee0c8;
