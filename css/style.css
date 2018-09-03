@@ -155,8 +155,16 @@ body {
 }
 .slide-bg img {
 	width: 100%;
-	min-height: 100%;
+	height: auto;
 	display: block;
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
 }
 .slider-container .slide-content {
 	position: absolute;
@@ -278,7 +286,7 @@ body {
 /*-- /banner section for inner pages--*/
 /*-- info section --*/
 section.info {
-	padding-top:20px;
+	padding-top:40px;
 	padding-bottom:80px;
 	text-align:center;
 }
