@@ -286,8 +286,8 @@ body {
 /*-- /banner section for inner pages--*/
 /*-- info section --*/
 section.info {
-	padding-top:40px;
-	padding-bottom:80px;
+	padding-top:10px;
+	padding-bottom:30px;
 	text-align:center;
 }
 section.info h2.text-center {
@@ -351,7 +351,8 @@ section.trend {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-    padding: 100px 0;
+	padding-top:120px;
+	padding-bottom: 140px;
 }
 section.trend h3.text-center {
 	font-size:40px;
@@ -447,7 +448,8 @@ p.trend-w3ls {
 /*-- /trends section --*/
 /*-- portfolio section --*/
 section.portfolio {
-	padding:100px 0;
+	padding-top:30px;
+	padding-bottom: 70px;
 }
 section.portfolio h3.text-center {
 	font-size:40px;
