@@ -253,8 +253,8 @@ body {
 }
 .slide-list li a {
 	opacity: 0.5;
-	width: 10px;
-	height: 10px;
+	width: 7px;
+	height: 7px;
 	display: block;
 	background: rgb(216, 238, 247);
 	border-radius: 20px;
