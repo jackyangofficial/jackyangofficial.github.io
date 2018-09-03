@@ -103,8 +103,8 @@ body {
 .navbar-default .navbar-brand {
     color: rgb(219, 250, 255);
 }
-.navbar-default .navbar-brand h1 {
-	font-size:35px;
+.navbar-default .navbar-brand h3 {
+	font-size:25px;
 	line-height: 20px;
 	font-family: 'Varela Round', sans-serif;
 } 
