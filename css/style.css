@@ -155,7 +155,7 @@ body {
 }
 .slide-bg img {
 	width: 100%;
-	height: auto;
+	min-height: 100%;
 	display: block;
 }
 .slider-container .slide-content {
@@ -337,6 +337,7 @@ section.trend {
 	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
+	background-repeat: no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -700,7 +701,7 @@ section.footer {
 	background:url(../images/footer.jpg);
 	background-position:center;
 	background-attachment:fixed;
-	background-repeat:no repeat;
+	background-repeat: no-repeat;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
