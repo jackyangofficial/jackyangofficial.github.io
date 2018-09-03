@@ -1643,6 +1643,36 @@ textarea#message {
 	height:150px;
 }
 /*-- /contact page --*/
+/*-- /Apple Media Query --*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+	section.trend {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+	section.footer {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+	section.trend {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+	section.footer {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)  {
+	section.trend {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+	section.footer {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+	section.trend {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+	section.footer {background: -webkit-linear-gradient(-45deg, #03202c 0%,rgb(148, 187, 197) 100%)}
+}
 
 /*-- RESPONSIVE DESIGN --*/
 @media (max-width:1600px) {
