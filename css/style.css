@@ -642,10 +642,11 @@ figure.effect-duke1:hover p {
 	opacity: 0;
 }
 
-.grid2 figure h4 {
+.appname {
 	font-size:25px;
-	font-weight: 300;
+	font-weight: bolder;
 	font-family: 'Varela Round', sans-serif;
+	color:rgb(136, 157, 163)
 }
 
 
