@@ -286,15 +286,15 @@ body {
 /*-- /banner section for inner pages--*/
 /*-- info section --*/
 section.info {
-	padding-top:10px;
-	padding-bottom:30px;
+	padding-top:4px;
+	padding-bottom:60px;
 	text-align:center;
 }
 section.info h2.text-center {
 	font-size:40px;
 	font-weight:normal;
 	color: rgb(136, 157, 163);
-	padding:20px 0;	
+	padding:40px 0;	
 	font-family: 'Varela Round', sans-serif;
 }
 section.info p.text-center {
