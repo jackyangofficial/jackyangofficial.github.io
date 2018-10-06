@@ -1904,7 +1904,8 @@ section.service-tabs p {
     font-size: 16px;
 }
 section.info ,section.staff-info,section.testimonial,section.trend,section.portfolio,section.footer{
-    padding: 40px 0;
+    padding:4px;
+	padding-bottom: 40px;
 }
 section.info h2.text-center,section.staff-info h3.text-center,section.testimonial h3.text-center,section.trend h3.text-center,section.portfolio h3.text-center {
     font-size: 35px;
@@ -2088,7 +2089,8 @@ section.info p.info-agile {
     padding: 0 100px;
 }
 section.info ,section.staff-info,section.testimonial,section.trend,section.portfolio,section.footer{
-	padding:50px 0;
+	padding:4px;
+	padding-bottom: 40px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 20px;
@@ -2436,7 +2438,8 @@ p.footer-blog2 {
     width: 40px;
 }
 section.info, section.staff-info, section.testimonial, section.trend, section.portfolio, section.footer {
-    padding: 20px 0;
+    padding:4px;
+	padding-bottom: 40px;
 }
 .slide-content h3 {
     font-size: 19px;
