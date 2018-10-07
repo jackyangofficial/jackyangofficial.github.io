@@ -2340,10 +2340,11 @@ section.service-panel h3.page-header.text-center {
     height: 257px!important;
 }
 .slider-container .slide-content {
-	display:none;
-}
+	font-size: 10px;
+} 
 .slider-container .slide-content p {
-	display:none;
+	font-size: 10px;
+	line-height: 15px;
 }
 .grid1 figure h4 {
     font-size: 25px;
