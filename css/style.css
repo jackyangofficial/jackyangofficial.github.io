@@ -1117,9 +1117,9 @@ section.about-w3ls h3 {
 	color: rgb(104, 169, 187);
 }
 section.about-w3ls p {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 24px;
 }
 
 p.team-w3ls {
@@ -1284,10 +1284,10 @@ section.service-panel h4 {
 	font-family: 'Varela Round', sans-serif;
 }
 section.service-panel p {
-	font-size:16px;
+	font-size:14px;
 	font-weight:300;
 	padding:0px 0 15px;
-	line-height: 27px;
+	line-height: 25px;
 }
 section.service-panel a.btn.btn-primary {
     background-color: rgb(136, 157, 163);
