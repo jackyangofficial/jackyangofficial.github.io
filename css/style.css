@@ -2079,7 +2079,7 @@ section.info p.text-center,section.staff-info p.text-center,section.testimonial 
 }
 .slider-container .slide-content {
     top: 21%;
-	background-color:rgba(0,0,0,0.28);
+	background-color:rgba(6, 27, 39, 0.68);
 	border:5px solid rgba(0,0,0,0.25);
 }
 .slide-content h3,.slide-content p {
