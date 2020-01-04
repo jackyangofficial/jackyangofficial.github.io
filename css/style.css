@@ -1843,7 +1843,8 @@ p.trend-w3ls {
 	padding-bottom:50px;
 }
 section.portfolio img.img-responsive {
-	width:100%;
+	width:auto;
+	height: auto;
 }
 .slide-content h3 {
     font-size: 20px;
@@ -2006,8 +2007,8 @@ ul.nav.navbar-nav.navbar-right {
     padding-bottom: 15px;
 }
 .slide-content a {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 10px;
+    margin-top: 10px;
 }
 .slider-container .slide-content {
     top: 31%;
@@ -2344,8 +2345,8 @@ section.service-panel h3.page-header.text-center {
 	font-size: 10px;
 } 
 .slider-container .slide-content p {
-	font-size: 10px;
-	line-height: 15px;
+	font-size: 12px;
+	line-height: 10px;
 }
 .grid1 figure h4 {
     font-size: 25px;
@@ -2445,7 +2446,7 @@ section.info, section.staff-info, section.testimonial, section.trend, section.po
 	padding-bottom: 40px;
 }
 .slide-content h3 {
-    font-size: 19px;
+    display: none;
 }
 .slider-container .slide-content {
     top: 32%;
@@ -2602,6 +2603,7 @@ h2.page-header.text-center {
 .slider-container .slide-content {
 	right:45px;
 }
+
 .staff-details {
     width: 90%;
 }
