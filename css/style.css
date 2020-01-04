@@ -2243,7 +2243,7 @@ p.footer-blog2 {
 
 @media (max-width: 640px) {
 	ul.nav.navbar-nav.navbar-right {
-		background-color:rgba(0,0,0,0.7);
+		background-color:rgb(0, 0, 0);
 	}
 	section.service-panel h3.page-header.text-center {
     font-size: 30px;
@@ -2338,6 +2338,10 @@ section.service-panel h3.page-header.text-center {
 }
 
 @media (max-width: 568px) {
+
+.navbar-default .navbar-brand h3 {
+	font-size: 18px;
+}
 .slider-container {
     height: 257px!important;
 }
@@ -2603,7 +2607,6 @@ h2.page-header.text-center {
 .slider-container .slide-content {
 	right:45px;
 }
-
 .staff-details {
     width: 90%;
 }
